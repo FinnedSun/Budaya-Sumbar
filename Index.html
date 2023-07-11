@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+        font-family: 'peque';
+        src: url('font/peque script Demo.otf');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h2 class="title">BUDAYA MINANGKU.</h2>
+            <ul>
+                <li><a href="#branda">Home</a></li>
+                <li><a href="#favorit">Favorit</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#hubungi">Hubungi</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper" id="branda">
+            <div class="taki">
+                <img class="foto2" src="img/PencakSilat.png" alt="" style="width: 50%; height: 100vh; object-fit: cover; object-position: 0% 0px;" >
+                <span class="deskripsi">
+                    <h2>Pencak Silat</h2>
+                    <p>Pencak Silat adalah seni bela diri tradisional Indonesia yang menggabungkan gerakan indah, teknik bertahan diri, dan filosofi yang mendalam. Dengan ciri khas gerakan yang elegan dan kuat, Pencak Silat melibatkan berbagai teknik pukulan, tendangan, tangkisan, kuncian, dan gerakan mengelak yang dilakukan dengan kecepatan dan kegrasian tinggi.</p>
+                </span>
+            </div>
+            <div class="gradient">
+                <span></span>
+            </div>
+            <div class="mitsuha">
+                <img class="foto" src="img/PencakSilatw.png" alt="" style="width: 50%; height: 100vh; object-fit: cover; object-position: right 10%; float:right;display:block; " >
+                <span class="deskripsi2">
+                    <h2 class="titles">Silek lanyah</h2>
+                    <p>Silek lanyah (bahasa Indonesia: Silat lumpur) merupakan seni bela diri yang berasal dari Minangkabau, tepatnya di Kubu Gadang, Kelurahan Ekor Lubuk, Kota Padang Panjang.</p>
+                </span>
+            </div>
+            <div class="gradient" id="favorit">
+                <span>
+                    <h2>Favorit</h2>
+                </span>
+            </div>
+            <div class="cards">
+                <div class="cta" >
+                   <img src="img/desktop-wallpaper-rumah-gadang.jpg" alt="" style="width: 100%; height: 110%; object-fit: cover;" >
+                   <div class="text">
+                      <h2 class="titles">Rumah Gadang</h2><br><br><br><br>
+                      <p class="top">Rumah Gadang adalah nama untuk rumah adat Minangkabau yang merupakan rumah tradisional dan banyak jumpai di Sumatra Barat, Indonesia. </p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/stock-photo-1951237.jpg" alt="" style="width: 100%; height: 110%; object-fit: cover;">
+                   <div class="text" >
+                      <h2>Pacu jawi</h2><br><br><br>
+                      <p>perlombaan olahraga tradisional di Kabupaten Tanah Datar, Sumatra Barat, Indonesia. Dalam acara ini, sepasang sapi berlari di lintasan sawah berlumpur dengan panjang sekitar 60–250 meter.</p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/baju adat.jpg" alt="" style="width: 100%; height: 110%; object-fit: cover;">
+                   <div class="text">
+                      <h2>Busana Koto Gadang </h2><br><br><br>
+                      <p>Pada daerah Sumatera Barat ada berbagai jenis pakaian adat yang lazimnya dikenakan oleh pengantin adat Minangkabau. Salah satu diantaranya adalah baju adat Koto Gadang.</p>
+                   </div>
+                </div>
+                <div class="cta">
+                   <img src="img/Rendang.jpg" alt="" style="width: 100%; height: 110%; object-fit: cover;">
+                   <div class="text">
+                      <h2>ferris wheel at night</h2><br><br><br><br>
+                      <p>adalah hidangan berbahan dasar daging yang dihasilkan dari proses memasak suhu rendah dalam waktu lama dengan menggunakan aneka rempah-rempah dan santan.</p>
+                   </div>
+                </div>
+            </div>
+            <div class="gradient" id="order">
+                <span>
+                    <h2>Order</h2>
+                </span>
+            </div>
+            <div class="order">
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/Rendang.jpg" alt="your name" class="book" style="height: 250px; width: 200px; object-fit: cover; border-radius: 5px;">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Rendang</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/Sate .jpg" alt="your name" class="book" style="height: 250px; width: 200px; object-fit: cover; border-radius: 5px;">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Sate Pop</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/Dendeng Batikok.jpg" alt="your name" class="book" style="height: 250px; width: 200px; object-fit: cover; border-radius: 5px;">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Dendeng Batokok</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox">
+                      <img src="img/Ayam-Pop.jpeg" alt="your name" class="book" style="height: 250px; width: 200px; object-fit: cover; border-radius: 5px;">
+                    </div>
+                    <div class="contentBox">
+                      <h3>Ayam Pop</h3>
+                      <h2 class="price" onclick="beli()">73.<small>500</small> Rp</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="gradient" id="hubungi">
+              <span>
+                  <h2>Hubungi</h2>
+              </span>
+            </div>
+            <div class="hubungi">
+              <div class="lokasi">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.1858992319658!2d100.35394362008122!3d-0.9440404074782772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b93430bd2e73%3A0x3ff3fc1a2cbdf1!2sGramedia%20Padang!5e0!3m2!1sid!2sid!4v1684995513201!5m2!1sid!2sid" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="beli" id="beli">
+                <h1 class="title-beli">Beli Buku</h1>
+                <div class="input-group">
+                  <div class="input-nama">
+                    <input type="text" class="input" placeholder=" ">
+                    <label class="placeholder">Nama Anda</label>
+                  </div>
+                  <div class="input-judul">
+                    <input list="judulbuku" name="judul" id="judul" class="input" placeholder=" ">
+                    <label class="placeholder">Judul Buku</label>
+                    <datalist id="judulbuku">
+                      <option value="Your Name">
+                      <option value="Weathering With You">
+                      <option value="ANOTHER">
+                      <option value="ferris wheel at night">
+                      <option value="Confessions">
+                      <option value="I Want To Eat Your Pancreas">
+                      <option value="The Death Return">
+                      <option value="GIRLS">
+                    </datalist>
+                  </div>
+                  <div class="input-email">
+                    <input type="email" class="input" placeholder=" ">
+                    <label class="placeholder">Email Anda</label>
+                  </div>
+                  <div class="input-tel">
+                    <input type="tel" class="input" placeholder=" ">
+                    <label class="placeholder">No Telephone</label>
+                  </div>
+                  <div class="input-number">
+                    <input type="number" class="input" placeholder=" ">
+                    <label class="placeholder">Jumlah Buku</label>
+                  </div>
+                </div>
+                <button class="button-beli">Beli</button>
+              </div>
+              <div class="medsos">
+                <div class="kartu text-center" onclick="Instagram()">
+                  <h1  class="media">Instagram</h1>
+                  <i class="fa-brands fa-instagram icons"></i>
+                  <p class="nama">gramedia</p>
+                </div>
+                <div class="kartu text-center" onclick="Tokopedia()">
+                  <h1  class="media">Tokopedia</h1>
+                  <i class="fa-solid fa-store icons"></i>
+                  <p class="nama">Gramedia Official Store</p>
+                </div>
+                <div class="kartu text-center" onclick="Facebook()">
+                  <h1  class="media">Facebook</h1>
+                  <i class="fa-brands fa-facebook icons"></i>
+                  <p class="nama">Gramedia Books</p>
+                </div>
+                <div class="kartu text-center" onclick="Twitter()">
+                  <h1  class="media">Twitter</h1>
+                  <i class="fa-brands fa-twitter icons"></i>
+                  <p class="nama">Gramedia</p>
+                </div>
+              </div>
+            </div>
+            <footer id="footer">
+                <div class="copyright pull-left">&copy; 2023 <strong>PT. Gramedia Asri Media</strong></div>
+            </footer>
+            <script src="main.js"></script>
+            <script>
+              function beli() {
+                window.location.href = "#beli"
+              }
+              function Instagram() {
+                window.location.href = "https://www.instagram.com/gramedia/"
+              }
+              function Tokopedia() {
+                window.location.href = "https://www.tokopedia.com/gramedia-store"
+              }
+              function Twitter() {
+                window.location.href = "https://www.facebook.com/gramediastore"
+              }
+            </script>
+        </div>
+
+    </div>
+    <footer></footer>
+</body>
+</html>
